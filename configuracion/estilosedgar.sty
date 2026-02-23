@@ -1,0 +1,11 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{configuracion/estilosedgar}[2024/11/24 estilos para enumerar funciones]
+
+\newenvironment{afunc}[1]{
+  \renewcommand{\labelenumi}{#1\arabic{enumi}.}%
+  \renewcommand{\labelenumii}{#1\arabic{enumi}.\arabic{enumii}.}
+  \renewcommand{\labelenumiii}{#1\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}.
+  \begin{enumerate}
+}{%
+  \end{enumerate}%
+}

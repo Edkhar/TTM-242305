@@ -1,0 +1,33 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[htbp]
+\centering
+\caption{Necesidades y requerimientos del sistema}
+\label{tab:NyR}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{ccc}
+\hline
+\textbf{Necesidad} &
+  \textbf{Requerimiento} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Funcional o \\ No funcional\end{tabular}} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Almacenar el alimento de manera que no se vea \\ afectado o deteriorado por el ambiente ni el material\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}El contenedor debe almacenar \\ $23 \text{kg}$ de alimento\end{tabular} &
+  F \\ \hline
+\begin{tabular}[c]{@{}c@{}}Pesar el alimento en porciones adecuadas de \\ acuerdo a la cantdad de gallinas\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}El alimento debe ser pesado de acuerdo a \cite{Hy-Line}, que \\ indica un promedio de 103g por gallina, al día.\end{tabular} &
+  F \\ \hline
+\begin{tabular}[c]{@{}c@{}}Transportar y distribuir las porciones \\ de alimento a lo largo de $1.5 \text{m}$\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}El alimento debe ser distribuido de \\ manera uniforme en un espacio \\ máximo de $1.5\text{ m}$; debe \\ realizar la rutina dos veces al día.\end{tabular} &
+  F \\ \hline
+\begin{tabular}[c]{@{}c@{}}Nidales que no interfieran con el \\ comportamiento natural de las gallinas\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Los nidales deben adaptarse, tal que, \\ se puedan recoger los huevos desde la \\ parte externa del gallinero, para \\ no afectar su comportamiento\end{tabular} &
+  NF \\ \hline
+Identificar gallinas &
+  \begin{tabular}[c]{@{}c@{}}Se debe poder identificar a las gallinas y \\ su ingreso a los nidales\end{tabular} &
+  F \\ \hline
+Registro diario de la postura &
+  \begin{tabular}[c]{@{}c@{}}Para el registro de postura se debe \\ despreciar materia fecal y paja en los nidales\end{tabular} &
+  F \\ \hline
+\end{tabular}%
+}
+\end{table}

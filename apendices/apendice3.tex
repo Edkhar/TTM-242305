@@ -1,0 +1,62 @@
+\chapter{Cálculo de engranes}\label{apendice3}
+\stepcounter{chapter} %instrucción necesaria para cambiar numeración
+
+\section{Datos del motor}
+
+Se tiene un motor NEMA 23 con un par de torsión de $3 \text{ N}\cdot\text{m} $ un consumo de corriente de $4.2 \text{ A} $ y una velocidad de $ 117 \text{ rpm} $
+
+$$ M_t = 3 \text{ N} \cdot \text{m} = 3000 \text{ N}\cdot \text{mm} = 306 \textbf{ kg} \cdot \textbf{mm} $$
+$$ I_{nom}= 4.2 \textbf{ A}$$
+$$\eta_{nom} = 117 \textbf{ rpm}$$
+
+\section{Datos de la rosca}
+
+Para el husillo tenemos una rosca ACME de 6 hilos por pulgada y un diámetro exterior de $ 7/8 $ de pulgada. Midiendo se obtiene un diámetro interior de $22.22 \text{mm} $
+
+$$ d_{\text{int}} = 22.22 \textbf{mm} $$
+$$ \varphi = 6 \text{ hpp} = 4.233 \textbf{ mm}$$ 
+    
+\section{Potencia y eficiencia necesarias}
+
+$$F_t = \frac{2M_T}{d_{int rosca}}=27.5427 \approx 27.543 \textbf{ kgf}$$
+
+$$\bar{x} = 1500 \textbf{ mm}$$
+
+$$revoluciones = \frac{\bar{x}}{\varphi} = \frac{1500 \textbf{ mm} }{4.233 \textbf{ mm}} = 354.3586 \textbf{ rev}$$
+
+$$ \eta_{ 5min} = \frac{354.3586 \textbf{ rev}}{5 \textbf{ min}} = 70.87172 \textbf{ rpm}$$
+
+$$P_{consumida} = \frac{M_t \cdot \eta_{nom}}{761,200} = \frac{306 \cdot 117}{716,200}= 0.04998 \approx 0.05 \textbf{ C.P.} = 37.3 \textbf{ W}$$
+
+$$P_{suministrada} = 50.4 \textbf{ W} = \frac{P_{consumida}}{\eta_{t}}$$
+
+$$ \eta_{t} = \frac{37.3 \textbf{ W}}{50.4 \textbf{ W}} \cdot 100 = 74\% $$
+
+\section{Cálculo de engranajes}
+\subsection{Relación de velocidades}
+
+\begin{center}
+    $$\rho_{T} = \frac{\eta_{nom}}{\eta_{ 5min}} = \frac{177  \textbf{ rpm}}{70.8717 \textbf{ rpm}} = 1.65$$
+
+    $$\rho_{T} = \rho_1\rho_2= 3\rho_2$$
+    $$\rho_1 = \frac{1.65}{3} = 0.55$$
+\end{center}
+\subsection{Numero de dientes (angulo de presión = 20°}
+\begin{center}
+
+    $$\rho_2=3 $$
+    
+    $$Z_p = \frac{2(\frac{1}{\rho_2})}{-1 + \sqrt{1 + [(\frac{1}{\rho_2})^2 + 2\frac{1}{\rho_2}]sin^2 20^\circ}}$$
+
+    
+
+    $$Z_p = 14.98 \equiv 15 \textbf{ dientes}$$
+
+    $$\rho_2 = \frac{Z_p}{Z_e}$$
+
+    $$Z_e = 3 \cdot 15= 45 \textbf{ dientes}$$
+    
+\end{center}
+
+%%%%%%fin del archivo
+\endinput 

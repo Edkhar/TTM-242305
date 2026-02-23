@@ -1,0 +1,41 @@
+\begin{theindex}
+
+  \item acero galvanizado, \hyperpage{30}
+  \item arquitectura funcional, \hyperpage{19}
+
+  \indexspace
+
+  \item báscula, \hyperpage{34}
+
+  \indexspace
+
+  \item gallina de postura, \hyperpage{9}
+
+  \indexspace
+
+  \item nidal, \hyperpage{13}
+
+  \indexspace
+
+  \item RFID, \hyperpage{13}, \hyperpage{42}
+  \item RS485, \hyperpage{43}
+
+  \indexspace
+
+  \item sistema de alimentación, \hyperpage{12}
+    \subitem automático, \hyperpage{12}
+    \subitem manual, \hyperpage{12}
+    \subitem por gravedad, \hyperpage{12}
+  \item sistemas de producción, \hyperpage{10}
+    \subitem semi-tecnificado, \hyperpage{10}
+    \subitem tecnificado, \hyperpage{10}
+    \subitem traspatio, \hyperpage{10}
+
+  \indexspace
+
+  \item tolva
+    \subitem de almacenamiento, \hyperpage{30}
+    \subitem móvil, \hyperpage{35}
+  \item topología bus, \hyperpage{43}
+
+\end{theindex}

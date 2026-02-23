@@ -1,0 +1,72 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{vii}{chapter*.2}%
+\contentsline {chapter}{Abstract}{ix}{chapter*.3}%
+\contentsline {chapter}{\listfigurename }{xii}{chapter*.4}%
+\contentsline {chapter}{\listtablename }{xiii}{chapter*.7}%
+\contentsline {chapter}{Introducción}{1}{chapter*.9}%
+\contentsline {section}{Definición del problema}{2}{section*.10}%
+\contentsline {section}{Justificación}{3}{section*.11}%
+\contentsline {section}{Objetivo}{5}{section*.12}%
+\contentsline {subsection}{Objetivo general}{5}{subsection*.13}%
+\contentsline {subsection}{Objetivos específicos}{5}{subsection*.14}%
+\contentsline {subsubsection}{Trabajo Terminal I}{5}{subsubsection*.15}%
+\contentsline {subsubsection}{Trabajo Terminal II}{5}{subsubsection*.16}%
+\contentsline {section}{Antecedentes}{7}{section*.17}%
+\contentsline {chapter}{\numberline {1}Marco de referencíal}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Marco teórico}{9}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Tipos de gallinas}{9}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Sistemas de producción}{10}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Sistemas de alimentación}{12}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Nidal}{13}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}RFID}{13}{subsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {1.1.5.1}Etiqueta}{14}{subsubsection.1.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.1.5.2}Lector}{14}{subsubsection.1.1.5.2}%
+\contentsline {section}{\numberline {1.2}Marco procedimental}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Metodología mecatrónica}{15}{subsection.1.2.1}%
+\contentsline {chapter}{\numberline {2}Diseño del sistema}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Diseño Conceptual}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Necesidades - Requerimientos}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Arquitectura funcional}{19}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Arquitectura física}{22}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}IDEF-0}{24}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Propuestas de solución}{28}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Diseño Detallado}{30}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Comunicación Humano Máquina (Sistema de Alimentación)}{30}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Almacenamiento del alimento}{30}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Validación del módulo de almacenamiento}{33}{subsubsection.2.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.3}Pesaje alimento}{34}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Distribución del alimento}{35}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Validación}{39}{subsubsection.2.2.4.1}%
+\contentsline {subsection}{\numberline {2.2.5}Circuito sistema alimentación}{41}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Registro de postura}{42}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Comunicación con el usuario del monitoreo de postura}{43}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Integración sistema alimentación}{44}{subsection.2.2.8}%
+\contentsline {chapter}{\numberline {3}Implementaci\'on del sistema}{47}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Implementación Comunicación Humano Máquina}{47}{section.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.0.1}Verificación}{48}{subsubsection.3.1.0.1}%
+\contentsline {section}{\numberline {3.2}Almacenamiento de Alimento}{48}{section.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.0.1}Verificación}{48}{subsubsection.3.2.0.1}%
+\contentsline {section}{\numberline {3.3}Pesaje alimento}{49}{section.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.0.1}Verificación}{49}{subsubsection.3.3.0.1}%
+\contentsline {section}{\numberline {3.4}Distribución de alimento}{49}{section.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.0.1}Verificación}{49}{subsubsection.3.4.0.1}%
+\contentsline {section}{\numberline {3.5}Circuito sistema alimentación}{51}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Verificación}{51}{subsection.3.5.1}%
+\contentsline {chapter}{\numberline {4}Discusión / Análisis de resultados}{53}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Análisis de ingeniería}{53}{subsection.4.0.1}%
+\contentsline {chapter}{Conclusiones}{55}{chapter*.18}%
+\contentsline {section}{Recomendaciones y trabajo futuro}{55}{section*.19}%
+\contentsline {part}{Referencias}{57}{chapter*.21}%
+\contentsline {part}{Apéndices}{61}{part.1}%
+\contentsline {chapter}{Planos diseño}{63}{appendix*.22}%
+\contentsline {chapter}{Esquemáticos circuitos}{79}{appendix*.23}%
+\contentsline {chapter}{Cálculo de engranes}{83}{appendix*.24}%
+\contentsline {section}{Datos del motor}{83}{section*.25}%
+\contentsline {section}{Datos de la rosca}{83}{section*.26}%
+\contentsline {section}{Potencia y eficiencia necesarias}{84}{section*.27}%
+\contentsline {section}{Cálculo de engranajes}{84}{section*.28}%
+\contentsline {subsection}{Relación de velocidades}{84}{subsection*.29}%
+\contentsline {subsection}{Numero de dientes (angulo de presión = 20°}{85}{subsection*.30}%
+\contentsline {part}{Anexos}{87}{part.2}%
+\contentsline {chapter}{Anexo 1. Dimensiones de la celda de carga}{89}{appendix*.31}%
+\contentsline {part}{\indexname }{92}{section*.32}%

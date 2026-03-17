@@ -31,11 +31,11 @@ El ensamble de las piezas del módulo no presentó fallos en soportar el peso y 
 
 \section{Pesaje alimento}
 
-El pesaje del alimento se realizó mediante una celda de carga de \SI{5}{kg}. Se utilizó un espárrago roscado de 1/2'' para empujar el alimento una vez termine de medir el peso; en conjunto con elementos fabricados mediante manufactura aditiva que sostienen el rodamiento y la tuerca del sistema.
+El pesaje del alimento se realizó mediante una celda de carga de \SI{5}{kg}. Se utilizó un espárrago roscado de 1/2'' para empujar el alimento una vez termine de medir el peso; en conjunto con elementos fabricados mediante manufactura aditiva que sostienen el rodamiento y una tuerca para mover la pared que lleva el alimento de la báscula a la tolva de distribución.
 
 \subsubsection{Verificación}
 
-Se realizaron pruebas de pesaje con la báscula por separado, logrando medir con un error de \SI{0.5}{Kg}. El mecanismo de empuje presentó problemas al mover el alimento, por fricción con las paredes y la báscula. Se redujeron las dimensiones.
+Se realizaron pruebas de pesaje con la báscula por separado, logrando medir con un error de \SI{10}{g}. El mecanismo de empuje presentó problemas al mover el alimento, por fricción con las paredes y la báscula por un error de $\pm 1$
 
 \section{Distribución de alimento}
 
@@ -47,7 +47,7 @@ Por cambios en los requerimientos, se realizó una estructura auxiliar que sopor
 
 \subsubsection{Verificación}
 
-El montaje de los elementos no presenta interferencias en el movimiento al lograr cumplir el recorrido de 1.5 m con los 3 kg de carga. En la imagen \ref{fig:MontajeDist} se muestra el montaje de la tolva en las flechas y el tornillo.
+El montaje de los elementos no presenta interferencias en el movimiento al lograr cumplir el recorrido de 1.5 m con los 3 kg de carga, sin embargo debido a la manufactura se detectan variaciones de hasta \SI{2}{mm}. En la imagen \ref{fig:MontajeDist} se muestra el montaje de la tolva en las flechas y el tornillo.
 
 \begin{figure}[htbp]
     \centering
@@ -68,7 +68,7 @@ El esquemático del circuito se puede ver en el apéndice
 
 \subsection{Verificación}
 
-En una \textit{protoboard} se realizaron distintas pruebas del funcionamiento del circuito, integrando correctamente cada componente que se seleccionó. Se estableció el código para controlar el sistema basado en la imagen \ref{fig:DFSA} utilizando el entorno de Arduino IDE y programando en el lenguaje de C$++$. 
+En una \textit{protoboard} se realizaron distintas pruebas del funcionamiento del circuito, integrando correctamente cada componente que se seleccionó. Posteriormente se mandaron a hacer las dos placas correspondientes al control de los motores y la lectura de los sensores. Se estableció el código para controlar el sistema basado en la imagen \ref{fig:DFSA} utilizando el entorno de Arduino IDE y programando en el lenguaje de C$++$, se detectó que para controlar mejor el sistema y evitar bloqueos la mejor opción sería implementarlo bajo el modelo de máquina de estados. 
 
 Cada etapa del programa fue probada individualmente mediante funciones que demostraban su correcto funcionamiento. Conectando los motores, la pantalla y los sensores a la tarjeta y verificando que cada elemento cumpliera su función. 
 
